@@ -1,10 +1,20 @@
 {
   "name": "slidev-theme-zli",
   "version": "0.0.2",
+  "description": "ZLI Slidev theme",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
+  "homepage": "https://github.com/zlict/slidev-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlict/slidev-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/zlict/slidev-theme/issues"
+  },
+  "author": "openscript GmbH <hi+npm@openscript.ch>",
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
@@ -12,7 +22,8 @@
     "screenshot": "slidev export example.md --format png",
     "release:major": "standard-version --release-as major && git push --follow-tags",
     "release:minor": "standard-version --release-as minor && git push --follow-tags",
-    "release:patch": "standard-version --release-as patch && git push --follow-tags"
+    "release:patch": "standard-version --release-as patch && git push --follow-tags",
+    "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
     "@slidev/types": "^0.31.4",
