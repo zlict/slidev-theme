@@ -33,6 +33,11 @@ jobs:
         env:
           CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+      - name: Authenticate with the GitHub Package Registry
+        run:
+          echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" >
+          ~/.npmrc
+
       - name: Publish package on Github NPM registry
         run: npm publish
         env:
