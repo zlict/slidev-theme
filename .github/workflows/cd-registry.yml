@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: '0'
 
-      - name: Configure node for npmjs.org as registry
+      - name: Configure node for Github NPM registry as registry
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
@@ -33,7 +33,7 @@ jobs:
         env:
           CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Publish package on npmjs.org
+      - name: Publish package on Github NPM registry
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
