@@ -42,7 +42,7 @@
     "slidev": ">=0.19.3"
   },
   "slidev": {
-    "colorSchema": "ligth",
+    "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
       "fonts": {
