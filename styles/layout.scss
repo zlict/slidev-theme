@@ -30,6 +30,23 @@
   }
 }
 
+.slidev-layout.end {
+  @apply h-full grid;
+
+  background-image: none;
+  background-color: var(--slidev-theme-secondary);
+  color: white;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+  }
+}
+
 
 .slidev-layout {
   @apply h-full;
