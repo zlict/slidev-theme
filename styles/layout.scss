@@ -7,8 +7,7 @@
   --slidev-theme-secondary: #f47b20;
 }
 
-.slidev-layout.title,
-.slidev-layout.default {
+.slidev-layout.title {
   @apply h-full grid;
 
   h1 {
