@@ -15,6 +15,11 @@
     @apply text-6xl leading-20;
   }
 
+  h2 {
+    @apply text-5xl leading-20;
+    color: var(--slidev-theme-secondary)
+  }
+
   h1+p {
     @apply -mt-2 opacity-50 mb-4;
   }
