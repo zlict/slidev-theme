@@ -34,6 +34,7 @@
   "devDependencies": {
     "@slidev/cli": "^0.31.4",
     "conventional-github-releaser": "^3.1.5",
+    "sass": "^1.62.0",
     "standard-version": "^9.5.0"
   },
   "engines": {
@@ -41,7 +42,7 @@
     "slidev": ">=0.19.3"
   },
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "ligth",
     "highlighter": "all",
     "defaults": {
       "fonts": {
