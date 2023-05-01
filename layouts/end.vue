@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout cover">
+  <div class="slidev-layout end">
     <div class="my-auto w-full">
       <slot />
     </div>
