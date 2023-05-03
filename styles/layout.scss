@@ -7,6 +7,23 @@
   --slidev-theme-secondary: #f47b20;
 }
 
+
+.color-primary {
+  color: var(--slidev-theme-primary)
+}
+
+.color-secondary {
+  color: var(--slidev-theme-secondary)
+}
+
+.bg-primary {
+  background-color: var(--slidev-theme-primary)
+}
+
+.bg-secondary {
+  background-color: var(--slidev-theme-secondary)
+}
+
 .slidev-layout.title {
   @apply h-full grid;
 
