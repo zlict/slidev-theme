@@ -32,8 +32,7 @@
   }
 
   h2 {
-    @apply text-5xl leading-20;
-    color: var(--slidev-theme-secondary)
+    @apply text-5xl color-secondary;
   }
 
   h1+p {
@@ -79,10 +78,14 @@
   h4,
   h5,
   h6 {
-    color: var(--slidev-theme-primary);
     font-family: 'Dongle';
     letter-spacing: -0.02em;
     font-weight: bold;
+    @apply color-primary;
+  }
+
+  li {
+    @apply mb-10;
   }
 
   background-image: url(../assets/logo.svg);
