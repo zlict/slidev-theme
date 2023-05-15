@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/zlict/slidev-theme/compare/v0.0.9...v0.1.0) (2023-05-15)
+
+
+### 🐛 Bug Fixes
+
+* assets ([ffd31fb](https://github.com/zlict/slidev-theme/commit/ffd31fb481eabea939c720a3bd2bceb1c9224844))
+* colorScheme ([fc0a469](https://github.com/zlict/slidev-theme/commit/fc0a469f109f9da074e4eb263c20db5b8f677409))
+* default font ([47ff3e4](https://github.com/zlict/slidev-theme/commit/47ff3e4e82d42e524ae00984d68e5e427917a850))
+* default font ([af72862](https://github.com/zlict/slidev-theme/commit/af728621a5ce2bb48437c1b71f5ffe2562b12d96))
+* default layout ([95dd6f1](https://github.com/zlict/slidev-theme/commit/95dd6f147a5f6afaa07fadf0c29abec9c6703083))
+* default layout ([c789fa2](https://github.com/zlict/slidev-theme/commit/c789fa243d2702cdf8bf5ed5884528db3cdac1aa))
+
+
+### 🚀 Features
+
+* add end layout ([3accb5d](https://github.com/zlict/slidev-theme/commit/3accb5ddd028e4111a5fecc4b393ae953fb85b8c))
+* add end layout ([d05a312](https://github.com/zlict/slidev-theme/commit/d05a31217f2897a03dbe2db72ff837844deb44c3))
+* add end layout ([e9b4dac](https://github.com/zlict/slidev-theme/commit/e9b4dac78d98ad905ab216192e61ba23058979fe))
+* add helper classes for colors ([1b4f50e](https://github.com/zlict/slidev-theme/commit/1b4f50ecaaad0b05a8dc8bef7dd24cb38432d7ae))
+* fix spacing ([ad8aff7](https://github.com/zlict/slidev-theme/commit/ad8aff79de056fcb99377133bda7eed23a162ee9))
+* fix spacing ([988c8ef](https://github.com/zlict/slidev-theme/commit/988c8efc7e738dbf675c29e46500cef222d30109))
+
 ### [0.0.9](https://github.com/zlict/slidev-theme/compare/v0.0.8...v0.0.9) (2022-05-23)
 
 ### [0.0.8](https://github.com/zlict/slidev-theme/compare/v0.0.7...v0.0.8) (2022-05-23)
