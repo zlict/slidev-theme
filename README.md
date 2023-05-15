@@ -1,27 +1,20 @@
 # slidev-theme-zli
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+<img src="./example-export/001.png" width="276" float="left">
+<img src="./example-export/002.png" width="276" float="left">
+<img src="./example-export/003.png" width="276" float="left">
+<img src="./example-export/004.png" width="276" float="left">
+<img src="./example-export/005.png" width="276" float="left">
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>zli-theme</b>
----</code></pre>
+```markdown
+---
+theme: "@zlict/slidev-theme-zli"
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
