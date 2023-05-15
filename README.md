@@ -1,11 +1,5 @@
 # slidev-theme-zli
 
-<img src="./example-export/001.png" width="276" float="left">
-<img src="./example-export/002.png" width="276" float="left">
-<img src="./example-export/003.png" width="276" float="left">
-<img src="./example-export/004.png" width="276" float="left">
-<img src="./example-export/005.png" width="276" float="left">
-
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
