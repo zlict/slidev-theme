@@ -26,14 +26,15 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
-    "@slidev/types": "^0.31.4",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.4.10"
+    "@slidev/types": "^0.40.16",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.31.4",
+    "@slidev/cli": "^0.40.16",
     "conventional-github-releaser": "^3.1.5",
+    "npm-check": "^6.0.1",
     "sass": "^1.62.0",
     "standard-version": "^9.5.0"
   },
