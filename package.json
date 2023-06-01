@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/zlict/slidev-theme/issues"
   },
+  "license": "UNLICENSED",
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "scripts": {
     "build": "slidev build example.md",
@@ -44,20 +45,18 @@
     "standard-version": "^9.5.0"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "slidev": ">=0.40.0"
+    "node": ">=18.0.0"
   },
   "slidev": {
     "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
+      "linenumbers": true,
+      "colorSchema": "light",
       "fonts": {
-        "provider": "none",
-        "sans": "Nunito Sans",
-        "mono": "Fira Code",
-        "local": "Nunito Sans, Fira Code"
+        "provider": "none"
       },
-      "hightlighter": "prism"
+      "hightlighter": "shiki"
     }
   }
 }
