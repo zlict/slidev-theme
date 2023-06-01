@@ -54,7 +54,10 @@
       "linenumbers": true,
       "colorSchema": "light",
       "fonts": {
-        "provider": "none"
+        "provider": "none",
+        "sans": "Roboto",
+        "mono": "Fira Code",
+        "local": "Roboto, Dongle, Fira Code"
       },
       "hightlighter": "shiki"
     }
