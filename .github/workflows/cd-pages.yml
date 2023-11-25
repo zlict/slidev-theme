@@ -50,7 +50,7 @@ jobs:
         run: pnpm i
 
       - name: Build
-        run: pnpm build
+        run: pnpm build --base ${{ github.event.repository.name }}
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
