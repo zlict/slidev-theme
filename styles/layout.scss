@@ -178,3 +178,7 @@
   background-size: 150px;
   background-repeat: no-repeat;
 }
+
+.slidev-layout.two-cols-header {
+  grid-template-rows: repeat(2, min-content);
+}
