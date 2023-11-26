@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/zlict/slidev-theme/compare/v0.4.1...v0.4.2) (2023-11-26)
+
+
+### 🐛 Bug Fixes
+
+* two cols header layout ([182ee41](https://github.com/zlict/slidev-theme/commit/182ee419dc0a134d72c4d3ac301558d3c8b147b6))
+
+
+### 🚀 Features
+
+* add slide numbers ([60e5c18](https://github.com/zlict/slidev-theme/commit/60e5c185ef9ea6ddbb0e5f065f626110337dda2d))
+
 ### [0.4.1](https://github.com/zlict/slidev-theme/compare/v0.4.0...v0.4.1) (2023-11-25)
 
 ## [0.4.0](https://github.com/zlict/slidev-theme/compare/v0.3.0...v0.4.0) (2023-11-25)
