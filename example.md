@@ -31,7 +31,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
-
 ---
 
 # Navigation
@@ -52,7 +51,7 @@ layout: image-right
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
-# Code
+# Code `Wow`
 
 Use code snippets and get the highlighting directly!
 
