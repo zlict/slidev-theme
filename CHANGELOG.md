@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.5](https://github.com/zlict/slidev-theme/compare/v0.4.4...v0.4.5) (2023-12-12)
+
+
+### 🐛 Bug Fixes
+
+* code listing theme ([e09c51c](https://github.com/zlict/slidev-theme/commit/e09c51cd405c6fea1d4da13999dc7df7241bdb89))
+
 ### [0.4.4](https://github.com/zlict/slidev-theme/compare/v0.4.3...v0.4.4) (2023-12-12)
 
 ### [0.4.3](https://github.com/zlict/slidev-theme/compare/v0.4.2...v0.4.3) (2023-11-29)
