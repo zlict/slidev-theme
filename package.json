@@ -31,15 +31,15 @@
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/nunito-sans": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
-    "@slidev/types": "^0.45.0",
+    "@slidev/types": "^0.46.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.45.0",
+    "@slidev/cli": "^0.46.3",
     "conventional-github-releaser": "^3.1.5",
-    "playwright-chromium": "^1.40.1",
-    "sass": "^1.69.5",
+    "playwright-chromium": "^1.41.1",
+    "sass": "^1.70.0",
     "standard-version": "^9.5.0"
   },
   "engines": {
