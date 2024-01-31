@@ -71,6 +71,16 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+
+# QR-Code
+
+```html
+<QRCode value="https://openscript.ch" style="width: 200px" />
+```
+
+<QRCode value="https://openscript.ch" style="width: 200px" />
+
+---
 layout: center
 class: "text-center"
 ---
