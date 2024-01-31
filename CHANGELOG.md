@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/zlict/slidev-theme/compare/v0.4.8...v0.5.0) (2024-01-31)
+
+
+### 🚀 Features
+
+* qrcode component ([4ab70db](https://github.com/zlict/slidev-theme/commit/4ab70db69efe8d52720507342b689b6463808e6d))
+
+
+### 📚 Documentations
+
+* enhance readme ([35342e6](https://github.com/zlict/slidev-theme/commit/35342e6f4d0636152ca393e34bb9736ae52f11cf))
+
 ### [0.4.8](https://github.com/zlict/slidev-theme/compare/v0.4.7...v0.4.8) (2023-12-13)
 
 ### [0.4.7](https://github.com/zlict/slidev-theme/compare/v0.4.6...v0.4.7) (2023-12-13)
