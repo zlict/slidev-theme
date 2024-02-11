@@ -16,7 +16,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v3
 
       - name: Configure node for Github NPM registry as registry
         uses: actions/setup-node@v4
