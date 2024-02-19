@@ -35,6 +35,7 @@ layout: task
 name: Task Layout
 time: 30min
 method: Work in Groups
+result: Programm als .zip-Datei abgegeben
 ---
 
 Describe the most important steps of the task here:

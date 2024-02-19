@@ -23,19 +23,19 @@ ul.task-description {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  font-size: 13px;
   margin-left: -1em;
   margin-right: -1em;
   margin-bottom: 1em;
   border: 3px solid var(--slidev-theme-secondary);
   border-radius: 10px;
-  padding: 0.2em 1em;
+  padding: 0.2em 0.9em;
 
   li {
     width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
-    font-size: 0.8em;
 
     span:first-of-type {
       font-weight: bold;
