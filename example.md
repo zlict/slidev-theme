@@ -60,7 +60,9 @@ layout: two-cols-header
 
 ::right::
 
-Lorem Lorem Lorem
+```javascript
+console.log("With some code");
+```
 
 ---
 

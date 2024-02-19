@@ -150,6 +150,10 @@
 	margin: 0;
 }
 
+.col-right pre:first-of-type, .col-left pre:first-of-type {
+  margin-top: 1rem;
+}
+
 .slidev-layout.center * {
   text-align: center;
 
