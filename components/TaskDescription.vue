@@ -23,11 +23,10 @@ ul.task-description {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-top: -1em;
   margin-left: -1em;
   margin-right: -1em;
   margin-bottom: 1em;
-  border: 2px solid var(--slidev-theme-secondary);
+  border: 3px solid var(--slidev-theme-secondary);
   border-radius: 10px;
   padding: 0.2em 1em;
 
@@ -36,7 +35,7 @@ ul.task-description {
     padding: 0;
     margin: 0;
     display: flex;
-      font-size: 0.7em;
+    font-size: 0.8em;
 
     span:first-of-type {
       font-weight: bold;
@@ -49,8 +48,8 @@ ul.task-description {
 <template>
   <h1>Aufgabe {{ number }}: {{ title }}</h1>
   <ul className="task-description">
-    <li><span>Zeit:</span><span>{{ time }}</span></li>
-    <li><span>Methode:</span><span>{{ method }}</span></li>
-    <li><span>Ergebnis:</span><span>{{ result }}</span></li>
+    <li v-if="time"><span>Zeit:</span><span>{{ time }}</span></li>
+    <li v-if="method"><span>Methode:</span><span>{{ method }}</span></li>
+    <li v-if="result"><span>Ergebnis:</span><span>{{ result }}</span></li>
   </ul>
 </template>

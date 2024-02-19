@@ -1,13 +1,15 @@
 ---
 theme: ./
+layout: center
+background: /background.jpg
 ---
 
-# Slidev Theme Starter
+# ZLI theme starter
 
 Presentation slides for developers
 
 <div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
+  <span @click="next" class="px-2 p-1 rounded cursor-pointer bg-green hover:bg-white hover:bg-opacity-10">
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
@@ -26,10 +28,45 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
-<br>
-<br>
-
 Read more about [Why Slidev?](https://sli.dev/guide/why)
+
+---
+layout: task
+name: Task Layout
+time: 30min
+method: Work in Groups
+---
+
+Describe the most important steps of the task here:
+
+1. **First** go there
+   - One
+   - Two
+1. Then do this
+1. Finally..
+
+
+---
+layout: two-cols-header
+---
+
+# Two column header
+
+::left::
+
+- Left
+  - Awesome
+
+::right::
+
+Lorem Lorem Lorem
+
+---
+
+# Title ...
+## Subtitle
+
+Bliblablub
 
 ---
 
@@ -47,11 +84,23 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
+
+# Lists
+
+- This
+- are
+- bullet points.
+
+1. This
+1. is
+1. an enumerated list.
+
+---
 layout: image-right
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
-# Code `Wow`
+# Code `Code`
 
 Use code snippets and get the highlighting directly!
 
@@ -69,7 +118,6 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
-
 ---
 
 # QR-Code
