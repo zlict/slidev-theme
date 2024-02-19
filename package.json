@@ -33,15 +33,15 @@
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/nunito-sans": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
-    "@slidev/types": "^0.46.3",
+    "@slidev/types": "0.47.5",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.46.3",
+    "@slidev/cli": "0.47.5",
     "conventional-github-releaser": "^3.1.5",
-    "playwright-chromium": "^1.41.1",
-    "sass": "^1.70.0",
+    "playwright-chromium": "^1.41.2",
+    "sass": "^1.71.0",
     "standard-version": "^9.5.0"
   },
   "engines": {
@@ -60,7 +60,6 @@
         "mono": "Fira Code",
         "local": "Roboto, Dongle, Fira Code"
       },
-      "css": "windicss",
       "hightlighter": "shiki"
     }
   }
