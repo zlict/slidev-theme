@@ -142,7 +142,7 @@
 }
 
 .slidev-layout.two-cols-header {
-  grid-template-rows: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content) !important;
 }
 
 .slidev-layout.two-cols-header > div {

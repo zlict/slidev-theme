@@ -29,19 +29,19 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^2.0.0",
-    "@fontsource/dongle": "^5.0.17",
-    "@fontsource/fira-code": "^5.0.16",
-    "@fontsource/nunito-sans": "^5.0.8",
-    "@fontsource/roboto": "^5.0.8",
-    "@slidev/types": "0.47.5",
+    "@fontsource/dongle": "^5.0.18",
+    "@fontsource/fira-code": "^5.0.17",
+    "@fontsource/nunito-sans": "^5.0.12",
+    "@fontsource/roboto": "^5.0.12",
+    "@slidev/types": "0.49.0-beta.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "0.47.5",
+    "@slidev/cli": "0.49.0-beta.3",
     "conventional-github-releaser": "^3.1.5",
-    "playwright-chromium": "^1.41.2",
-    "sass": "^1.71.0",
+    "playwright-chromium": "^1.43.1",
+    "sass": "^1.75.0",
     "standard-version": "^9.5.0"
   },
   "engines": {
