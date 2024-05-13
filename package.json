@@ -19,7 +19,7 @@
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "scripts": {
     "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
+    "dev": "slidev example.md --open --remote",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
     "release:major": "standard-version --release-as major && git push --follow-tags",
@@ -29,19 +29,19 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^2.0.0",
-    "@fontsource/dongle": "^5.0.18",
-    "@fontsource/fira-code": "^5.0.17",
-    "@fontsource/nunito-sans": "^5.0.12",
-    "@fontsource/roboto": "^5.0.12",
-    "@slidev/types": "0.49.0-beta.3",
+    "@fontsource/dongle": "^5.0.19",
+    "@fontsource/fira-code": "^5.0.18",
+    "@fontsource/nunito-sans": "^5.0.13",
+    "@fontsource/roboto": "^5.0.13",
+    "@slidev/types": "0.49.2",
     "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4"
+    "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@slidev/cli": "0.49.0-beta.3",
+    "@slidev/cli": "0.49.2",
     "conventional-github-releaser": "^3.1.5",
-    "playwright-chromium": "^1.43.1",
-    "sass": "^1.75.0",
+    "playwright-chromium": "^1.44.0",
+    "sass": "^1.77.1",
     "standard-version": "^9.5.0"
   },
   "engines": {
