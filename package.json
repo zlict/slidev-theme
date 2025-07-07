@@ -1,6 +1,6 @@
 {
   "name": "@zlict/slidev-theme-zli",
-  "version": "0.6.7",
+  "version": "0.7.0",
   "type": "module",
   "description": "Slidev Theme for Zürcher Lehrbetriebsverband ICT (ZLI)",
   "keywords": [
