@@ -1,14 +1,14 @@
 {
-	"name": "Slidev ZLI Theme",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-20-bullseye",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"dbaeumer.vscode-eslint",
-				"GitHub.vscode-github-actions",
-				"Vue.volar"
-			]
-		}
-	}
+  "name": "@zlict/slidev-theme",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.slidev",
+        "github.vscode-github-actions",
+        "Vue.volar",
+        "antfu.unocss"
+      ]
+    }
+  }
 }
