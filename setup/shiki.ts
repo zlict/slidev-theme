@@ -1,10 +1,7 @@
-import { defineShikiSetup } from '@slidev/types'
+import { defineShikiSetup, ShikiSetupReturn } from '@slidev/types'
 
 export default defineShikiSetup(async () => {
   return {
-    theme: {
-      dark: 'vitesse-dark',
-      light: 'vitesse-light',
-    },
-  }
+    themes: { light: 'vitesse-light', dark: 'vitesse-dark' },
+  } satisfies ShikiSetupReturn
 })

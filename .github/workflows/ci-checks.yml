@@ -1,0 +1,32 @@
+name: Continuous integration checks
+
+on: pull_request
+
+jobs:
+  check:
+    name: Run some checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check types
+        run: pnpm check:types
+
+      - name: Check formatting
+        run: pnpm check:format
+
+      - name: Try to build
+        run: pnpm build

@@ -19,7 +19,9 @@
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "scripts": {
     "build": "slidev build example.md",
-    "dev": "slidev example.md --open --remote",
+    "check:format": "eslint . --max-warnings 0",
+    "check:types": "tsc --noEmit",
+    "dev": "slidev example.md --remote",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
     "release:major": "standard-version --release-as major && git push --follow-tags",
@@ -30,22 +32,30 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.30.3",
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^2.0.0",
-    "@fontsource/dongle": "^5.2.6",
-    "@fontsource/fira-code": "^5.2.6",
-    "@fontsource/nunito-sans": "^5.2.6",
-    "@fontsource/roboto": "^5.2.6",
-    "@slidev/types": "52.0.0",
+    "@fontsource/dongle": "^5.2.7",
+    "@fontsource/fira-code": "^5.2.7",
+    "@fontsource/nunito-sans": "^5.2.7",
+    "@fontsource/roboto": "^5.2.10",
+    "@slidev/types": "52.14.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@slidev/cli": "52.0.0",
+    "@eslint/js": "^10.0.1",
+    "@eslint/markdown": "^7.5.1",
+    "@slidev/cli": "52.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
     "conventional-github-releaser": "^3.1.5",
-    "playwright-chromium": "^1.53.2",
-    "standard-version": "^9.5.0"
+    "eslint": "^10.0.2",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.4.0",
+    "playwright-chromium": "^1.58.2",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
   },
   "slidev": {
     "colorSchema": "light",
