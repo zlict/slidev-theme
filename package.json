@@ -39,23 +39,23 @@
     "@fontsource/fira-code": "^5.2.7",
     "@fontsource/nunito-sans": "^5.2.7",
     "@fontsource/roboto": "^5.2.10",
-    "@slidev/types": "52.14.0",
+    "@slidev/types": "52.14.1",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@eslint/markdown": "^7.5.1",
-    "@slidev/cli": "52.14.0",
-    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@slidev/cli": "52.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
     "conventional-github-releaser": "^3.1.5",
-    "eslint": "^10.0.2",
+    "eslint": "^10.1.0",
     "eslint-plugin-vue": "^10.8.0",
     "globals": "^17.4.0",
     "playwright-chromium": "^1.58.2",
     "standard-version": "^9.5.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.56.1"
+    "typescript-eslint": "^8.57.1"
   },
   "slidev": {
     "colorSchema": "light",
